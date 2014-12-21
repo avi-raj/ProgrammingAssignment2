@@ -1,7 +1,10 @@
-## makeCacheMatrix() creates an object to cache the inverse of an input matrix 
-## CacheSolve() references this object and returns its inverse.
-##     If the matrix inverse was calculated already (the result is cached),
-##     the cached value is returned
+## makeCacheMatrix() creates an object to store input matrix and
+##                   what will be the cached inverse of input matrix. 
+##                   The cached value is initally set to NULL
+## 
+## cacheSolve()      This references the object above and returns the inverse of input matrix.
+##                   If the matrix inverse was calculated already (the result is cached),
+##                   the cached value is returned
 ## Code has been extensively commented to explain every step of the process
 ## Usage examples are given at the end of this file
 
